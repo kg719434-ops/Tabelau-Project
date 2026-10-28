@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FuelScope — Global Fuel Price & Taxation Analysis</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#"><span class="logo-mark">F</span> Fuel<span>Scope</span></a>
+  <nav>
+    <a href="#overview">Overview</a><a href="#story">Analysis</a><a href="#method">Methodology</a><a href="#insights">Insights</a>
+  </nav>
+  <a class="nav-btn" href="#story">Explore Project <b>↗</b></a>
+</header>
+
+<section class="hero" id="overview">
+  <div class="hero-content">
+    <div class="pill"><span></span> DATA VISUALIZATION · 2020 — 2026</div>
+    <h1>Understanding the<br><em>global fuel economy.</em></h1>
+    <p>An interactive visual exploration of fuel prices, taxation, income levels and government subsidies across countries and regions.</p>
+    <div class="hero-actions">
+      <a class="btn dark" href="#story">Explore the story <b>↓</b></a>
+      <a class="btn light" href="#method">How it works</a>
+    </div>
+    <div class="hero-note"><span class="pulse"></span> Built from a structured global fuel dataset</div>
+  </div>
+  <div class="hero-visual">
+    <div class="orb"><div class="orb-grid"></div><div class="orb-label">GLOBAL<br><strong>FUEL</strong></div></div>
+    <div class="float-card fc1"><small>COUNTRIES</small><strong>84</strong><i>worldwide</i></div>
+    <div class="float-card fc2"><small>RECORDS</small><strong>27,468</strong><i>complete</i></div>
+    <div class="route r1"></div><div class="route r2"></div>
+  </div>
+</section>
+
+<section class="metrics">
+  <div><small>TIME PERIOD</small><strong>2020–2026</strong></div>
+  <div><small>COUNTRIES</small><strong>84</strong></div>
+  <div><small>REGIONS</small><strong>07</strong></div>
+  <div><small>RECORDS</small><strong>27.4K</strong></div>
+  <div><small>ATTRIBUTES</small><strong>10</strong></div>
+</section>
+
+<section class="section" id="story">
+  <div class="section-top"><div><div class="eyebrow">THE VISUAL STORY</div><h2>Seven perspectives.<br><span>One global picture.</span></h2></div>
+  <p>Follow the same seven-part story structure used in the Tableau project, from the global overview to the final recommendations.</p></div>
+
+  <div class="story-grid">
+    <article class="story big">
+      <div class="story-top"><span>01</span><label>OVERVIEW</label></div>
+      <h3>Global Fuel<br>Dashboard</h3>
+      <p>A high-level view of fuel prices, categories and country-wise differences.</p>
+      <div class="bars"><b style="height:65%"></b><b style="height:85%"></b><b style="height:48%"></b><b style="height:72%"></b><b style="height:94%"></b><b style="height:58%"></b><b style="height:76%"></b></div>
+      <div class="card-foot">Country filter · KPIs · Comparisons <span>↗</span></div>
+    </article>
+
+    <article class="story map-card">
+      <div class="story-top"><span>02</span><label>GEOGRAPHY</label></div>
+      <h3>Global Price<br>Distribution</h3>
+      <p>Country-level geographical differences in petrol and diesel prices.</p>
+      <div class="world"><div class="continent c1"></div><div class="continent c2"></div><div class="continent c3"></div><div class="continent c4"></div><div class="continent c5"></div></div>
+    </article>
+
+    <article class="story">
+      <div class="story-top"><span>03</span><label>TRENDS</label></div>
+      <h3>Fuel Price<br>Movement</h3>
+      <p>How petrol, diesel, LPG and crude oil change from 2020 to 2026.</p>
+      <svg class="chart" viewBox="0 0 400 120" preserveAspectRatio="none"><polyline points="0,90 50,72 100,80 150,48 200,62 250,28 300,44 350,18 400,35"/><polyline class="second" points="0,98 50,88 100,92 150,76 200,82 250,67 300,72 350,52 400,62"/></svg>
+    </article>
+
+    <article class="story">
+      <div class="story-top"><span>04</span><label>TAXATION</label></div>
+      <h3>Taxation &<br>Regional Comparison</h3>
+      <p>Comparing average fuel tax percentages across regions and countries.</p>
+      <div class="hbars"><div><span>Region A</span><i style="width:82%"></i></div><div><span>Region B</span><i style="width:63%"></i></div><div><span>Region C</span><i style="width:48%"></i></div><div><span>Region D</span><i style="width:71%"></i></div></div>
+    </article>
+
+    <article class="story">
+      <div class="story-top"><span>05</span><label>ECONOMY</label></div>
+      <h3>Income vs<br>Fuel Price</h3>
+      <p>Comparing fuel prices and taxation across income-level groups.</p>
+      <div class="scatter"><i style="left:15%;bottom:25%"></i><i style="left:28%;bottom:55%"></i><i style="left:43%;bottom:38%"></i><i style="left:58%;bottom:70%"></i><i style="left:73%;bottom:52%"></i><i style="left:88%;bottom:78%"></i></div>
+    </article>
+
+    <article class="story">
+      <div class="story-top"><span>06</span><label>SUBSIDIES</label></div>
+      <h3>Government<br>Support</h3>
+      <p>Average fuel prices across different government subsidy levels.</p>
+      <div class="subsidy"><span>LOW</span><span>MEDIUM</span><span>HIGH</span></div>
+    </article>
+
+    <article class="story final-card">
+      <div class="story-top"><span>07</span><label>CONCLUSION</label></div>
+      <h3>From Data<br>to Decisions.</h3>
+      <p>The final story combines geographical, temporal and policy insights into actionable conclusions.</p>
+      <a href="#insights">Read key insights <b>→</b></a>
+    </article>
+  </div>
+</section>
+
+<section class="insights" id="insights">
+  <div class="section-top light"><div><div class="eyebrow">KEY TAKEAWAYS</div><h2>What the data<br><span>helps reveal.</span></h2></div></div>
+  <div class="insight-row">
+    <div><strong>01</strong><h3>Geography matters</h3><p>Fuel affordability varies substantially between countries and regions.</p></div>
+    <div><strong>02</strong><h3>Prices move over time</h3><p>Trend analysis highlights changing petrol, diesel, LPG and crude oil prices.</p></div>
+    <div><strong>03</strong><h3>Policy shapes the picture</h3><p>Taxation and subsidies provide important context for fuel-price differences.</p></div>
+    <div><strong>04</strong><h3>Context is essential</h3><p>Income-level analysis adds another dimension to understanding affordability.</p></div>
+  </div>
+</section>
+
+<section class="method" id="method">
+  <div class="section-top"><div><div class="eyebrow">PROJECT PIPELINE</div><h2>From raw data<br><span>to visual insight.</span></h2></div></div>
+  <div class="steps">
+    <div><b>01</b><h3>Collect</h3><p>Global fuel price, tax, income and subsidy data.</p></div>
+    <div><b>02</b><h3>Prepare</h3><p>Standardization, validation and country–region mapping.</p></div>
+    <div><b>03</b><h3>Transform</h3><p>Encoding and derived metrics for analysis.</p></div>
+    <div><b>04</b><h3>Visualize</h3><p>Maps, trends, KPIs and comparison charts.</p></div>
+    <div><b>05</b><h3>Tell the story</h3><p>Seven Tableau story points turn data into a narrative.</p></div>
+  </div>
+</section>
+
+<section class="cta">
+  <div><div class="eyebrow">FINAL TAKEAWAY</div><h2>Data makes the<br><em>global picture</em> clearer.</h2><p>This project demonstrates how Tableau can turn a large, multi-dimensional fuel dataset into an interactive story for exploring prices, taxation and policy.</p></div>
+  <a class="btn dark" href="#overview">Back to top ↑</a>
+</section>
+
+<footer><div class="logo"><span class="logo-mark">F</span> Fuel<span>Scope</span></div><p>Global Fuel Price & Taxation Analysis · Data Visualization Project</p><p>2020 — 2026</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
