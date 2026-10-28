@@ -1,0 +1,1 @@
+document.querySelectorAll('.story').forEach((card,i)=>{card.style.animationDelay=(i*.05)+'s'});
